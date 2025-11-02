@@ -7,7 +7,7 @@ st.title("YOLOv8 Object Detection")
 conf = st.slider("Confidence Threshold", 0.0, 1.0, 0.25)
 source_type = st.radio("Input Type", ("Image", "Video"))
 
-model = YOLO("C:/Users/Paarth/Documents/PROJECTS/YOLO2/YOLOv8trained model/best.pt") 
+model = YOLO("YOLOv8trained model/best.pt") 
 
 
 if source_type == "Image":
